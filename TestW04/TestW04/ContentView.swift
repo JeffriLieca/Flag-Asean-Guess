@@ -20,6 +20,7 @@ struct ContentView: View {
         showAlert=false
         counter=0
         angkaRandom = Int.random(in: 0...9)
+        uniqueNumbers.insert(angkaRandom)
     }
     
     var body: some View {
